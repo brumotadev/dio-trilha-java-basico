@@ -1,4 +1,4 @@
-package edu.operadores.ternario2;
+package edu.operadores.unario2;
 
 public class Operadores {
 
