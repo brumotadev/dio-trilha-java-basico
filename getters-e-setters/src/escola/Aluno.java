@@ -1,9 +1,13 @@
 package escola;
 
 public class Aluno {
-    String nome;
-    int idade;
+    private String nome;
+    private int idade;
+
+    private String sala;
+
     
+
     public String getNome() {
         return nome;
     }
@@ -16,6 +20,13 @@ public class Aluno {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+    public String getSala() {
+        return sala;
+    }
+    public void setSala(String sala) {
+        this.sala = sala;
+    }
+
 
 
 
