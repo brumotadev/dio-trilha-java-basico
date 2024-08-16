@@ -6,6 +6,6 @@ public class Autodromo {
         peugeot208.ligar();
 
         Moto biz = new Moto();
-        
+        biz.setChassi("3131231");
     }
 }
