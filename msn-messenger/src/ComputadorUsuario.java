@@ -3,9 +3,7 @@ public class ComputadorUsuario {
         //abrindo msn messenger
         MSNMessenger msn = new MSNMessenger();
 
-        msn.validarConectadoInternet();
         msn.enviarMensagem();
-        msn.salvarHistoricoMensagem();
 
         msn.receberMensagem();
     }
