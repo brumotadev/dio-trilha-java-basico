@@ -1,3 +1,4 @@
+package messenger;
 public class ComputadorUsuario {
     public static void main(String[] args) {
         //abrindo msn messenger

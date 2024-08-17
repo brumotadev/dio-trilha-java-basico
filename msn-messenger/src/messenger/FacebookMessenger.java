@@ -1,13 +1,14 @@
-public class Telegram {
+package messenger;
+public class FacebookMessenger {
 
     public void enviarMensagem() {
         validarConectadoInternet();
-        System.out.println("Enviando mensagem pelo Telegram");
+        System.out.println("Enviando mensagem pelo Facebook Messenger");
         salvarHistoricoMensagem();
     }
 
     public void receberMensagem() {
-        System.out.println("Recebendo mensagem pelo Telegram");
+        System.out.println("Recebendo mensagem Facebook Messenger");
     }
 
     private void validarConectadoInternet() {

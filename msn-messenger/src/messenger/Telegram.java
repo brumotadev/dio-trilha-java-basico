@@ -1,13 +1,14 @@
-public class MSNMessenger {
+package messenger;
+public class Telegram {
 
     public void enviarMensagem() {
         validarConectadoInternet();
-        System.out.println("Enviando mensagem pelo MSN Messenger");
+        System.out.println("Enviando mensagem pelo Telegram");
         salvarHistoricoMensagem();
     }
 
     public void receberMensagem() {
-        System.out.println("Recebendo mensagem pelo MSN Messenger");
+        System.out.println("Recebendo mensagem pelo Telegram");
     }
 
     private void validarConectadoInternet() {
