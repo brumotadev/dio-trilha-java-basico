@@ -1,7 +1,5 @@
 package equipamentos.copiadora;
-public class Copiadora {
-
-    public void copiar() {
-        System.out.println("Copiando");
-    }
+public interface Copiadora {
+    // interface so tem contrato, não sabe como faz
+    public void copiar();
 }
