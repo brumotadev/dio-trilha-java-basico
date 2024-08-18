@@ -1,11 +1,10 @@
-package messenger;
-
-import messenger.services.ServicoMensagemInstantanea;
+package messenger.apps;
 
 public class Telegram extends ServicoMensagemInstantanea {
 
 
     public void enviarMensagem() {
+        validarConectadoInternet();
         System.out.println("Enviando mensagem pelo Telegram");
     }
 
